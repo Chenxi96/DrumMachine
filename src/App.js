@@ -84,7 +84,7 @@ function App() {
             document.getElementsByClassName(entry.sound)[0].play();
             document.getElementById('display').innerText = entry.html
             }} onKeyDown={(event) => {
-              const findKey = keys.find(key => key.key.toLowerCase() === event.key)
+              keys.find(key => key.key.toLowerCase() === event.key)
               document.getElementsByClassName(entry.sound)[0].play();
               document.getElementById('display').innerText = entry.html
             }} id={entry.key} className='drum-pad'>{entry.key}
