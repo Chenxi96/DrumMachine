@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import './App.css';
 
 function App() {
@@ -43,7 +43,7 @@ function App() {
     {
       key: "Z",
       sound: 'KNH',
-      html: "Kick n\'\ Hat",
+      html: "Kick n' Hat",
       audioSource: 'https://s3.amazonaws.com/freecodecamp/drums/Kick_n_Hat.mp3'
     },
     {
